@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  docs:
+    build: ./docs
+    container_name: docs
+    volumes:
+      - ./docs/code:/data/docs
